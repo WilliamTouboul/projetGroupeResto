@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'mohavemedium';
+    src: url('./font/mohave.medium-webfont.woff2') format('woff2'),
+        url('./font/mohave.medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: mohavemedium;
+}
+
+@font-face {
+    font-family: 'fontTitle';
+    src: url('./font/fonttest-webfont.woff2') format('woff2'),
+        url('./font/fonttest-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#logo, #logoLittle {
+    font-family: 'fontTitle';
+}
+#logo {
+    border : solid 2px #A44A1A;
+    text-decoration : none;
+    color : #A44A1A;
+    padding-left : 12px;
+    padding-right : 12px;
+}
+#logoLittle {
+    text-decoration : none;
+    color : #A44A1A;
+}
+
+/* Logo centre Nav */
+#wtLogoNavbar {
+    text-align: center;
+}
+
+
+/*carousel*/
+#carousel {
+    margin-bottom: 50px;
+}
+
+/*taille police caption */
+.wtCarouselTitle {
+    font-size: 95px;
+    border :rgb(255, 255, 255) 6px solid;
+    width:fit-content;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top : 40px;
+    padding-bottom : 40px;
+}
+
+/*centrage caption*/
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial
+}
+
+/* size carousel */
+.wtCarouselElements {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Media queries pour effacer le texte du carousel et l'adapté a la taille du periph */
+@media screen and (max-width:700px) {
+    .wtCarouselElements {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.wtLogoDisplayNone {
+    display : none;
+}
+
+/* padding pour aerer le footer */
+footer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+/* mise en forme lien footer */
+.wtRSLink {
+    text-decoration: none;
+    color: black;
+}
+
+/* mise en forme mention legales */
+.wtLegalMentionsPropName {
+    font-weight: bold;
+}
+.icon-text {
+    vertical-align: middle;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+
+}
+
+.wtDisableNone {
+    display: none;
+    width: -1000px;
+}
+.wtDisableNoneTitles {
+    display:none;
+}
+
+#wtNavbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.wtNavbarLink {
+    text-decoration: none;
+    color: #A44A1A !important;
+    margin-left : 35px;
+    margin-right : 35px;
+}
+.wtNavbarLink:hover{
+    color : #1b1822;
+}
+
+.wtLogoTop {
+    height: 56px;
+    width: auto;
+}
+.wtLogoTopReduce {
+    height : 36px;
+    width : auto;
+}
+
+.wtIconBot {
+    height : 70px;
+    width : auto;
+}
+
+#wtImgBranding {
+    width : 100%;
+    height : auto;
+}
+
+#wtContactButton {
+    border : 2px solid #A44A1A;
+    color: #A44A1A;
+    background-color:rgb(255,255,255);
+    padding : 16px;
+}
+
+.wtScrollNavbar {
+    height : 35px;
+}
+
+.wtRSLinkTopNavbar {
+    height : 70px;
+    width : auto;
+}
+
+
+
+/* 2136548148946531584658645896579845612384956123489651324896513248965132 */
+
+
+@media screen and (max-width: 768px) {
+    #btnNavbar {
+        padding: 4px 4px;
+        font-size: 15px;
+        border-radius: 8px;
+        color : black;
+    }
+    #wtLogoNavbar, #wtLogoNavbarLittle, #logoFacebookTop, #logoInstaTop, #logoTwitterTop {
+        display : none;
+    }
+
+    #wtBagelNavbar {
+        padding-top : 22px;
+    }
+    
+    #wtContactNavBar {
+        padding-bottom : -15px;
+    }
+
+    li {
+        padding-left : 35%;
+    }
+
+}
+
+.navbar-toggler {
+    background-color : #A44A1A;
+    color : black;
+}
+
+#toggleIcon {
+    height : 19px;
+    width : 19px;
+}

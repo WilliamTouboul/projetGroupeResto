@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="assets/style.css" rel="stylesheet">
+    <link rel="icon" href="assets/img/icon_1.ico">
+
+    <title>All-IN BAGEL</title>
+</head>
+
+
+<body id="top" class="bodyFont">
+
+
+    
+<!-- Back to top button -->
+    <!-- Div englobant le reste de la page pour la décaler quand la navbar s'etend -->
+    <div id="wtMain">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light" id="wtNavbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="btnNavbar">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <!-- BAGEL -->
+                        <li class="nav-item">
+                            <a class="nav-link wtNavbarLink" id="wtBagelNavbar" href="#">BAGEL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wtNavbarLink" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Lien Menu -->
+                            <a class="nav-link wtNavbarLink" href="#wtMenu">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Lien About -->
+                            <a class="nav-link wtNavbarLink" id="wtContactNavBar" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <!-- Logo -->
+                    <span class="navbar-nav mx-auto" id="wtLogoNavbar">
+                        <a class="navbar-brand" href="#top" id="logo">ALL-IN<br>BAGEL</a>
+                    </span>
+                    <!-- Le même sans BR -->
+                    <span class="navbar-nav navbar-brand mx-auto wtLogoDisplayNone" id="wtLogoNavbarLittle">
+                        <a class="navbar-brand" href="#top" id="logoLittle">ALL-IN BAGEL</a>
+                    </span>
+                    <!-- Lien RS & Tel  -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link wtNavbarLink" href="https://www.facebook.com/AllInBagels/"
+                                target="_blank">
+                                <img src="assets/img/facebook.png" class="wtLogoTop" alt="Logo Facebook"
+                                    id="logoFacebookTop">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wtNavbarLink" href="#">
+                                <img src="assets/img/INSTA.png" class="wtLogoTop" alt="Logo Instagram"
+                                    id="logoInstaTop">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link wtNavbarLink" href="http://www.twitter.com">
+                                <img src="assets/img/twitter.png" class="wtLogoTop" alt="Logo Twitter"
+                                    id="logoTwitterTop">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <!-- Transition Fade et interval de 3s -->
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-interval="3000" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <!-- Premiere image du carousel + caption -->
+                    <img src="assets/img/carousel1.png" class="d-block wtCarouselElements"
+                        alt="Premiere image caroussel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="wtCarouselTitle mx-auto my-auto">ALL-IN <br>BAGEL</h2>
+                    </div>
+                </div>
+                <!-- Seconde image du carousel + caption -->
+                <div class="carousel-item">
+                    <img src="assets/img/carousel4.png" class="d-block wtCarouselElements"
+                        alt="seconde image Caroussel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="wtCarouselTitle mx-auto my-auto">ALL-IN <br>BAGEL</h2>
+                    </div>
+                </div>
+                <!-- troisieme image du carousel + Caption -->
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block wtCarouselElements"
+                        alt="Troisieme image Caroussel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="wtCarouselTitle mx-auto my-auto">ALL-IN <br>BAGEL</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Bouton pour changer de slide -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <!-- Page-->
+        <div class="text-center">
+            <h2> Menu tout ca etc </h2>
+            <div id="wtMenu">Menu ...
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies ac augue eget interdum.
+                Suspendisse
+                augue enim, gravida quis pulvinar eu, dignissim in mi. Ut consequat leo sit amet neque lobortis, quis
+                lobortis mi molestie. Cras posuere dolor eu porttitor vehicula. Sed leo orci, auctor at quam ac, varius
+                vestibulum velit. Sed vel est nulla. Nam vitae euismod justo. Proin pulvinar eros eget elit consequat
+                tristique. Morbi vitae magna ut ligula varius pharetra. Donec ultricies dui turpis, nec blandit enim
+                luctus
+                vel. In ex nibh, auctor vitae congue non, sodales non ligula. Sed ut mauris sagittis, convallis dolor
+                et,
+                condimentum dolor. Phasellus nec scelerisque lorem. Maecenas est nisl, hendrerit vitae congue at,
+                tincidunt
+                ac erat. Nunc et massa eget dui venenatis aliquet.
+
+                Morbi velit dolor, tincidunt quis nibh a, congue ornare dolor. Mauris lacinia turpis enim, in imperdiet
+                felis interdum at. Quisque dolor nisl, tincidunt quis metus vitae, facilisis dapibus sem. Donec leo
+                nibh,
+                tempor a magna lobortis, imperdiet imperdiet lacus. Nulla viverra metus dolor, commodo efficitur libero
+                malesuada ac. Etiam justo quam, auctor at pellentesque vehicula, elementum ac lectus. Fusce finibus
+                luctus
+                odio quis efficitur. Morbi in ante sed urna blandit varius. Proin pharetra dolor sed semper ultrices.
+
+                Phasellus feugiat lobortis justo ut tristique. Praesent sed purus id dolor vulputate tempor vitae eget
+                neque. Praesent sagittis, libero vitae commodo luctus, justo augue luctus lectus, vitae vehicula neque
+                ante
+                sit amet justo. Phasellus venenatis, nisl a scelerisque consequat, leo nisi convallis arcu, vel
+                tincidunt
+                massa justo ac ligula. Nullam eu ipsum est. Vivamus nisl purus, viverra a hendrerit ut, ornare vitae
+                urna.
+                Donec pharetra, sem luctus congue imperdiet, quam augue pretium sem, vitae iaculis felis eros id tortor.
+                Praesent nec mi quam. Pellentesque aliquam tortor ut lectus semper tincidunt. Sed ac purus ex. Aliquam
+                ipsum
+                eros, faucibus ac metus et, mattis interdum libero. Aliquam erat volutpat. Etiam sed tristique lacus,
+                vel
+                consectetur ipsum. Phasellus molestie ex eget ex vehicula, nec interdum nibh gravida. Fusce eget urna
+                est.
+
+                Phasellus faucibus non dui non volutpat. Quisque id libero eget arcu cursus pellentesque. Pellentesque a
+                nulla sagittis, rutrum tellus sed, gravida quam. Nullam sapien ipsum, euismod quis tortor quis, porta
+                vehicula velit. Aliquam ut purus eget ante tincidunt molestie. Aenean auctor tristique augue, in semper
+                dolor molestie non. Proin volutpat, libero at semper gravida, justo erat finibus libero, at luctus ipsum
+                nisi id tellus. Nunc quis ligula ex. Pellentesque in nulla a nibh fringilla iaculis vel a odio. Morbi id
+                quam erat. Donec et tellus sem. Nullam eleifend mi non tellus maximus rutrum. Vestibulum ante ipsum
+                primis
+                in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse sit amet mauris et tellus dictum
+                finibus.
+
+                Aenean fermentum ut leo non tincidunt. Etiam vel enim pretium, tincidunt lectus eu, maximus diam.
+                Suspendisse commodo ex ac pellentesque faucibus. Maecenas bibendum lacus in vestibulum pulvinar.
+                Phasellus
+                posuere molestie semper. Etiam ac enim mauris. Donec in velit gravida, vehicula enim vitae, consequat
+                lectus. Phasellus nisl leo, lacinia at orci id, tincidunt dapibus felis. Praesent ac felis lacinia,
+                tristique purus nec, condimentum dolor.
+
+                In et urna non urna auctor luctus. Maecenas consequat neque eu arcu posuere, ac iaculis enim imperdiet.
+                Nunc
+                eu felis a nibh tristique vehicula at sed libero. Ut condimentum nisl quam, in semper turpis porttitor
+                non.
+                Pellentesque at dolor at ante fermentum aliquam eu sit amet mauris. Fusce lobortis, augue mattis
+                elementum
+                dignissim, risus elit iaculis nisl, tincidunt iaculis mauris tortor auctor erat. Cras bibendum non lacus
+                at
+                consectetur. Vestibulum sed commodo purus. Mauris nec quam dictum, vestibulum quam at, mollis magna.
+                Morbi
+                vel dictum quam. Integer nec elit ut tellus lobortis efficitur. Suspendisse volutpat eu lectus et
+                venenatis.
+            </div>
+        </div>
+
+        <div>
+            <img src="assets/img/Branding1.png" alt="" id="wtImgBranding">
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- Adresse -->
+                    <div class="col-md-4 col-sm-down-12 float-left wtFooterElements text-left">
+                        <p>
+                            Horaires : <br>
+                            Mardi : 08:00 - 18:00 <br>
+                            Mercredi : 08:00 - 18:00 <br>
+                            Jeudi : 08:00 - 18:00 <br>
+                            Vendredi : 08:00 - 18:00 <br>
+                            Samedi : fermé <br>
+                            Dimanche : fermé <br>
+                            Lundi : 08h00 - 18h00
+
+                        </p>
+                    </div>
+                    <!-- RS -->
+                    <div class="col-md-4 col-sm-down-12 float-left wtFooterElements">
+                        Téléphone - 02 35 24 12 45 <br>
+                        Adresse - 16 <br>
+                        Boulevard Amiral Mouchez, 76600 <br>
+                        Le Havre
+                    </div>
+
+                    <!-- Formulaire de contact -->
+                    <div class="col-md-4 col-sm-12 float-left wtFooterElements text-center" id="contact">
+                        <span>
+                            <img src="assets/img/facebook1.png" class="wtIconBot" alt="icone facebook">
+                        </span>
+                        <span>
+                            <img src="assets/img/twitter1.png" class="wtIconBot" alt="icone twitter">
+                        </span>
+                        <span>
+                            <img src="assets/img/insta2.png" class="wtIconBot" alt="icone instagram">
+                        </span>
+                        <div> <button data-bs-toggle="modal" data-bs-target="#ndFormulaire" id="wtContactButton">Nous
+                                contacter</button>
+                        </div>
+
+
+                        <div class="modal fade" id="ndFormulaire" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header ">
+                                        <h5 class="modal-title mx-auto" id="exampleModalLabel">Formulaire de contact
+                                        </h5>
+                                        <button type="button" class="btn-close m-0" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body align-items-center ">
+                                        <form name="contact" id="ndContact">
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control ndInputSelect"
+                                                            id="ndFormLastName" placeholder="Nom :">
+                                                        <label for="floatingInput">Nom :</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control ndInputSelect"
+                                                            id="ndFormFirstName" placeholder="Prénom :">
+                                                        <label for="floatingInput">Prénom :</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control ndInputSelect"
+                                                            id="ndFormMail" placeholder="adresse mail">
+                                                        <label for="floatingInput">Adresse mail :</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-3">
+                                                    <div class="form-floating ">
+                                                        <input type="text" class="form-control ndInputSelect"
+                                                            id="ndFormNumber" placeholder="téléphone :">
+                                                        <label for="floatingInput">téléphone :</label>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 mb-3">
+                                                    <textarea class="form-control ndInputSelect"
+                                                        placeholder="Votre demande" id="ndTextArea"
+                                                        style="height: 150px;"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-12 mb-3">
+                                                    <div class="form-floating">
+                                                        <select class="form-select" id="ndFormObject"
+                                                            aria-label="Objet de la demande :">
+                                                            <option value="Devis">Contact</option>
+                                                            <option value="Réservation">Réservation</option>
+                                                            <option value="Contact">Devis</option>
+                                                        </select>
+                                                        <label for="floatingSelect">Votre demande :</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger mt-4 mb-3 ndRaz">RAZ</button>
+                                        <input type="submit" value="Envoyer" class="btn btn-primary mt-4 mb-3"
+                                            disabled="true" id="ndSendForm" /></div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 wtFooterElements text-center">
+                        <hr>
+                        Copyright ©2021 All rights reserved | <a href="legalmention.html">Mentions Légales</a>
+                    </div>
+                    <!-- TO TOP -->
+s
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- Script -->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
